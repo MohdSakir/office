@@ -1,0 +1,108 @@
+@import url('https://fonts.googleapis.com/css2?family=Asap&display=swap');
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Asap", sans-serif;
+}
+body{
+  background: black;
+}
+.navigation-bar ul li{
+    color: white;
+    list-style: none;
+    display: flex;
+    float: right;
+    padding: 10px 10px;
+}
+section{
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+section:nth-child(1){
+  color: white;
+  }
+section:nth-child(2){
+  color: black;
+  background: black;
+} 
+section:nth-child(3){
+  color: white;
+}
+section:nth-child(4){
+  color: white;
+  background: black;
+}
+section .container{
+  margin: 100px;
+}
+section h1{
+  font-size: 3rem;
+  margin: 20px;
+}
+section h2{
+  font-size: 40px;
+  text-align: center;
+  text-transform: uppercase;
+}
+section .text-container{
+   display: flex;
+}
+section .text-container .text-box{
+  margin: 20px;
+  padding: 20px;
+  background: black;
+}
+section .text-container .text-box h3{
+  font-size: 30px;
+  text-align: center;
+  text-transform: uppercase;
+  margin-bottom: 10px;
+}
+
+@media (max-width: 900px){
+  section h1{
+    font-size: 2rem;
+    text-align: center;
+  }
+  section .text-container{
+    flex-direction: column;
+  }
+}
+
+.reveal{
+  position: relative;
+  transform: translateY(150px);
+  opacity: 0;
+  transition: 1s all ease;
+}
+
+.reveal.active{
+  transform: translateY(0);
+  opacity: 1;
+}
+
+.footer{
+    margin-top: 100px;
+    margin-left: 20px;
+}
+.footer-account ul li{
+    color: white;
+    list-style: none;
+}
+.privacy{
+    display: flex;
+    justify-content: space-around;
+    color: gray;
+    font-weight: lighter;
+}
+
+.changeText{
+    color: white;
+    margin-bottom: 50px;
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 75px;
+}
