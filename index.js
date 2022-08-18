@@ -1,25 +1,59 @@
 
 var ourStory = document.getElementsByClassName('our-story')[0];
 ourStory.style.backgroundColor = 'white';
+var burgerline = document.getElementsByClassName('line');
+burgerline[0].style.backgroundColor=' rgba(255, 255, 255, 0.3)';
+burgerline[1].style.backgroundColor=' rgba(255, 255, 255, 0.3)';
+burgerline[2].style.backgroundColor=' rgba(255, 255, 255, 0.3)';
 
 
 window.onscroll = function (event) {
     var scroll = window.pageYOffset;
-    if (scroll < 900) {
+    if (scroll < 1300) {
         // green
         ourStory.style.backgroundColor = 'white';
         ourStory.style.color = 'black';
     }
-    else if(scroll>=900 && scroll < 2500 ){
+    else if(scroll>=1300 && scroll < 2500 ){
         ourStory.style.backgroundColor = 'black';
         ourStory.style.color = 'white';
     }
+    else if(scroll>=2800 && scroll < 5200){
+      burgerline[0].style.backgroundColor='black';
+      burgerline[1].style.backgroundColor='black';
+      burgerline[2].style.backgroundColor='black';
+    }
     else{
+
         ourStory.style.backgroundColor = 'white';
         ourStory.style.color = 'black';
+        burgerline[0].style.backgroundColor=' rgba(255, 255, 255, 0.3)';
+        burgerline[1].style.backgroundColor=' rgba(255, 255, 255, 0.3)';
+        burgerline[2].style.backgroundColor=' rgba(255, 255, 255, 0.3)';
+
     }
     
 }
+
+
+
+const bg = document.getElementById('design-image');
+window.addEventListener('scroll', function(){
+  bg.style.backgroundSize = 100 + +window.pageYOffset/20+'%';
+  // bg.style.opacity = 0.8 + +window.pageYOffset/7+'%';
+})
+
+
+
+// $(function() {
+
+//   $(window).scroll(function() {
+
+//     var mass = Math.min(20, 1+0.005*$(this).scrollTop());
+
+//     $('#design-image').css('transform', 'scale(' + mass + ')');
+//   });
+// });
  
 // var bigImage = document.getElementsByClassName('image');
 // bigImage.style.backgroundSize = '100%';
@@ -35,19 +69,19 @@ window.onscroll = function (event) {
 // }
 
 
-// var text = ["Welcome", "Hi", "Sup dude"];
-// var counter = 0;
-// var elem = document.getElementsByClassName("changeText");
-// var inst = setInterval(change, 1000);
+var text = ["Welcome", "Hi", "Sup dude"];
+var counter = 0;
+var elem = document.getElementsByClassName("changeText");
+var inst = setInterval(change, 1000);
 
-// function change() {
-//   elem.innerHTML = text[counter];
-//   counter++;
-//   if (counter >= text.length) {
-//     counter = 0;
-//     // clearInterval(inst); // uncomment this if you want to stop refreshing after one cycle
-//   }
-// }
+function change() {
+  elem.innerHTML = text[counter];
+  counter++;
+  if (counter >= text.length) {
+    counter = 0;
+    // clearInterval(inst); // uncomment this if you want to stop refreshing after one cycle
+  }
+}
 
 
 const slider = document.querySelector('.items');
@@ -80,23 +114,4 @@ slider.addEventListener('mousemove', (e) => {
   console.log(walk);
 });
 
-
-const open = document.querySelector('.container');
-    const close = document.querySelector('.close');
-    var tl = gsap.timeline({ defaults: { duration: 1, ease: 'expo.inOut' } });
-    open.addEventListener('click', () => {
-      if (tl.reversed()) {
-        tl.play();
-      } else {
-        tl.to('nav', { right: 0 })
-          .to('nav', { height: '100vh' }, '-=.1')
-          .to('nav ul li a', { opacity: 1, pointerEvents: 'all', stagger: .2 }, '-=.8')
-          .to('.close', { opacity: 1, pointerEvents: 'all' }, "-=.8")
-          .to('nav h2', { opacity: 1 }, '-=1');
-      }
-    });
-
-    close.addEventListener('click', () => {
-      tl.reverse();
-    });
 

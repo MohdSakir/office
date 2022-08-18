@@ -1,0 +1,25 @@
+@media only screen 
+and (max-width: 395px){
+    #design-image{
+        height: 24vh;
+        width: 191%;
+    }
+    .text{
+        margin-top: 15pc;
+    }
+    video{
+        height: 54%;
+    }
+    .our-story-section{
+        margin-top: 150%;
+    }
+    .our-story-text{
+        font-size: 60px;
+    }
+    .simple-story-discription{
+        font-size: 25px;
+    }
+    .find-more{
+        font-size: 10px;
+    }
+}

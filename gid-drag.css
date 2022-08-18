@@ -1,0 +1,120 @@
+
+
+.grid-container {
+    background: #efefef;
+    font-family: 'Rubik', sans-serif;
+  }
+  
+  /* //ENABLE CSS GRID FOR LIFT OFF  🚀 */
+  @supports(display: grid) {
+  
+    .grid-container {
+      display: grid;
+      grid-template-columns: 1fr 1fr 1fr;
+      grid-template-rows: auto 1fr auto;
+      
+      /* //Let the craziness begin!!! */
+      grid-template-areas:
+        "header header header"
+        "title title footer"
+        "main main main";
+    }
+    @media screen and (max-width: 500px) {
+      .grid-container{
+
+          grid-template-columns: 1fr;
+          grid-template-rows: 0.3fr 1fr auto 1fr;
+          grid-template-areas: 
+            "header"
+            "title"
+            "main"
+            "footer";
+      }
+    }
+  
+    .grid-item {
+      color: black;
+      background: black;
+      padding: 3.5em 1em;
+      font-size: 1em;
+      font-weight: 700;
+    }
+
+    .main {
+        color: lighten( black, 25%);
+        background-color: lighten(skyblue, 60%);
+        grid-area: main;
+        padding: 0;
+        overflow-x: scroll;
+        overflow-y: hidden;
+      }
+
+       /* Hide scrollbar for Chrome, Safari and Opera */
+.main::-webkit-scrollbar {
+    display: none;
+  }
+  
+  /* Hide scrollbar for IE, Edge and Firefox */
+  .main {
+    -ms-overflow-style: none;  /* IE and Edge */
+    scrollbar-width: none;  /* Firefox */
+  }
+
+      .items {
+        background-color: black;
+        position: relative;
+        width: 100%;
+        overflow-x: scroll;
+        overflow-y: hidden;
+        white-space: nowrap;
+        transition: all 0.2s;
+        transform: scale(0.98);
+        will-change: transform;
+        user-select: none;
+        cursor: pointer;
+      }
+    
+      .items.active {
+        background: black;
+        cursor: grabbing;
+        cursor: -webkit-grabbing;
+        transform: scale(1);
+      }
+
+       /* Hide scrollbar for Chrome, Safari and Opera */
+.items::-webkit-scrollbar {
+    display: none;
+  }
+  
+  /* Hide scrollbar for IE, Edge and Firefox */
+  .items {
+    -ms-overflow-style: none;  /* IE and Edge */
+    scrollbar-width: none;  /* Firefox */
+  }
+    
+      .item {
+        display: inline-block;
+        background: blck;
+        min-height: 250px;
+        min-width: 400px;
+        margin: 2em 1em;
+        
+    }
+    .item img:hover{
+        -webkit-transform: scale(1.2);
+        -ms-transform: scale(1.2);
+        transform: scale(1.05);
+        transition: 1s ease;
+        /* cursor: pointer;   */
+    }
+    @media screen and (max-width: 500px) {
+        .item{
+
+            min-height: 200px;
+            min-width: 200px;
+        }
+    }
+  }
+
+
+
