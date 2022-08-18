@@ -179,6 +179,7 @@ video{
     border-bottom: 0.15rem solid  black;
     transition: 0.5s ease-in-out;
     cursor: pointer;
+    text-shadow: 2px 2px 4px black;
 }
 .privacy{
     display: flex;

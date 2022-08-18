@@ -1,4 +1,4 @@
-#burger-toggle {
+/* #burger-toggle {
     position: absolute;
     appearance: none;
     opacity: 0;
@@ -123,7 +123,7 @@
 
   .menu-nav li div:hover{
       /* color: rgb(41, 156, 223); */
-      border-bottom: 0.15rem solid rgb(41, 156, 223);
+      /* border-bottom: 0.15rem solid rgb(41, 156, 223);
   }
   @media screen and (max-width: 750px) {
     .menu-nav {
@@ -229,4 +229,4 @@
     transform: translateY(102%);
   }
 
-  
+   */ 
