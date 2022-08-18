@@ -65,6 +65,12 @@ video{
     padding-right: 15%;
     margin: 0;
 }
+.simple-story-discription{
+    font-size: 50px;
+}
+.find-more{
+    font-size: 20px; opacity: 0.5;
+}
 .image-container{
     margin-top: 20px;
     margin-bottom: 20px;
@@ -79,6 +85,10 @@ video{
     font-weight: lighter;
     text-align: center;
     margin: 10pc 12pc;
+}
+.discovery-work{
+    font-size: 20px; 
+    opacity: 0.5;
 }
 .studio{
     margin-top: 20%;

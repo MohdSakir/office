@@ -6,7 +6,6 @@ burgerline[0].style.backgroundColor=' rgba(255, 255, 255, 0.3)';
 burgerline[1].style.backgroundColor=' rgba(255, 255, 255, 0.3)';
 burgerline[2].style.backgroundColor=' rgba(255, 255, 255, 0.3)';
 
-
 window.onscroll = function (event) {
     var scroll = window.pageYOffset;
     if (scroll < 1300) {
@@ -36,12 +35,13 @@ window.onscroll = function (event) {
 }
 
 
-
 const bg = document.getElementById('design-image');
 window.addEventListener('scroll', function(){
   bg.style.backgroundSize = 100 + +window.pageYOffset/20+'%';
   // bg.style.opacity = 0.8 + +window.pageYOffset/7+'%';
 })
+
+
 
 
 

@@ -1,5 +1,5 @@
 @media only screen 
-and (max-width: 395px){
+and (max-width: 400px){
     #design-image{
         height: 24vh;
         width: 191%;
@@ -21,5 +21,28 @@ and (max-width: 395px){
     }
     .find-more{
         font-size: 10px;
+    }
+    .item1 img{
+        height: 30vh;
+        width: 40vh;
+    }
+    .item4 img{
+        height: 30vh;
+        width: 40vh;
+    }
+    .item5 img{
+        height: 50vh;
+        width: 60vh;
+    }
+    .item6 img{
+        height: 30vh;
+        width: 40vh;
+    }
+    .collage-image-container {
+        margin-left: 100px;
+    }
+    .discovery{
+        margin: 10pc 15.5pc;
+        font-size: 50px;
     }
 }
