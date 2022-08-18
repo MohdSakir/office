@@ -8,7 +8,6 @@ body,html{
   margin-left: 0;
   font-family: 'Nunito', sans-serif;
   scroll-behavior: smooth;
-  cursor: url("/images/logo-cut-out-dark-23.png"),auto;
 }
 
 video{
@@ -173,6 +172,13 @@ video{
 .footer-account ul li{
     list-style: none;
     font-weight: bold;
+    border-bottom: 0.15rem solid white;
+    width: 100px;
+}
+.footer-account ul li:hover{
+    border-bottom: 0.15rem solid  black;
+    transition: 0.5s ease-in-out;
+    cursor: pointer;
 }
 .privacy{
     display: flex;
