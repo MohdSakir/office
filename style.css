@@ -8,6 +8,7 @@ body,html{
   margin-left: 0;
   font-family: 'Nunito', sans-serif;
   scroll-behavior: smooth;
+  cursor: url("/images/logo-cut-out-dark-23.png"),auto;
 }
 
 video{
