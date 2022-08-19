@@ -1,6 +1,7 @@
-@media only screen 
+/* @media only screen 
 and (max-width: 500px){
     .simple-story{
-        width: 30pc;
+        width: 10pc;
+        margin-left: 10pc;
     }
-}
+} */
