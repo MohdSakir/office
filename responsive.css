@@ -1,8 +1,8 @@
 @media only screen 
 and (max-width: 500px){
     #design-image{
-        height: 24vh;
-        width: 191%;
+        height: 100%;
+        width: 100%;
     }
     .text{
         margin-top: 15pc;
@@ -111,3 +111,7 @@ and (max-width: 750px){
         margin-top: -8px;
     }
 }
+
+
+
+

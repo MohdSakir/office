@@ -7,13 +7,29 @@
 }
 body{
   background: black;
+  width: auto;
+  height: auto;
+}
+.navigation-bar ul li a{
+  font-family: "Asap", sans-serif;
+  color: white;
+  text-decoration: none;
+}
+.navigation-bar ul li a{
+  transition: 0.5s ease-in-out;
+  border-bottom: 0.15rem solid black;
+}
+.navigation-bar ul li a:hover{
+  transition: 0.5s ease-in-out;
+  border-bottom: 0.15rem solid rgb(41, 156, 223);
 }
 .navigation-bar ul li{
     color: white;
     list-style: none;
     display: flex;
-    float: right;
+    float: left;
     padding: 10px 10px;
+    cursor: pointer;
 }
 section{
   min-height: 100vh;
