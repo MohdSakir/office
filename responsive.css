@@ -1,5 +1,13 @@
 @media only screen 
 and (max-width: 500px){
+    /* body,html{
+        height: 100%;
+        width: 100%;
+        box-sizing: border-box;
+        margin-left: 0;
+        font-family: 'Nunito', sans-serif;
+        scroll-behavior: smooth;
+      } */
     #design-image{
         height: 100%;
         width: 100%;
@@ -59,17 +67,17 @@ and (max-width: 500px){
 @media only screen 
 and (max-width: 750px){
     #design-image{
-        height: 24vh;
+        height: 40vh;
         width: 191%;
     }
     .text{
-        margin-top: 15pc;
+        margin-top: 57pc;
     }
     video{
-        height: 54%;
+        height: 100%;
     }
     .our-story-section{
-        margin-top: 150%;
+        margin-top: 270%;
     }
     .our-story-text{
         font-size: 60px;
