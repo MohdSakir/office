@@ -223,3 +223,35 @@ h1{
     margin: 0 0 2rem 0;
   }
 }
+
+.footer{
+  margin-top: 100px;
+  margin-left: 20px;
+}
+.footer-account ul li{
+color: white;
+  list-style: none;
+  font-weight: bold;
+  border-bottom: 0.15rem solid black;
+  width: 100px;
+}
+.footer-account ul li:hover{
+  border-bottom: 0.15rem solid white;
+  transition: 0.5s ease-in-out;
+  cursor: pointer;
+  text-shadow: 2px 2px 4px white;
+}
+.privacy{
+  display: flex;
+  justify-content: space-around;
+  color: gray;
+  font-weight: lighter;
+}
+
+.changeText{
+color: white;
+  margin-bottom: 50px;
+  display: flex;
+  justify-content: flex-end;
+  margin-right: 75px;
+}
