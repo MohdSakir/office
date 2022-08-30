@@ -88,9 +88,10 @@ video{
     font-size: 70px; 
     font-weight: lighter;
     text-align: center;
-    margin: 10pc 5pc;
+    margin: 20pc 5pc;
 }
 .discovery-work{
+    font-weight: bold;
     font-size: 20px; 
     opacity: 0.5;
 }
@@ -120,11 +121,11 @@ video{
 }
 
 .sec1{
-    margin-right: 10px;
+    margin-right: 05px;
 }
 .sec1 img{
-    height: 55vh;
-    width: 55vh;
+    height: 57vh;
+    width: 58vh;
     padding: 20px;
     object-fit: cover;
 }
