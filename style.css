@@ -60,6 +60,7 @@ video{
     
 }
 .our-story-text{
+    padding-top: 15pc;
     line-height: 3pc;
     text-align: center;
     font-size: 70px;
@@ -71,6 +72,7 @@ video{
     font-size: 50px;
 }
 .find-more{
+    line-height: 16pc;
     font-weight: bold;
     font-size: 20px; opacity: 0.5;
 }
