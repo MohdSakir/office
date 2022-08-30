@@ -75,10 +75,10 @@ and (max-width: 750px){
     }
     #design-image{
         height: 88vh;
-        width: 126%;
+        width: 130%;
     }
     .text{
-        margin-top: 100pc;
+        margin-top: 80pc;
     }
     video{
         /* padding-top: 10pc; */
