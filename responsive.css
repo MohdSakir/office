@@ -1,5 +1,5 @@
 @media only screen 
-and (max-width: 500px){
+and (max-width: 400px){
     /* body,html{
         height: 100%;
         width: 100%;
@@ -75,7 +75,7 @@ and (max-width: 750px){
     }
     #design-image{
         height: 88vh;
-        width: 140%;
+        width: 100%;
     }
     .text{
         margin-top: 80pc;
