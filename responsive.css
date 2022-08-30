@@ -82,7 +82,7 @@ and (max-width: 750px){
     }
     video{
         /* padding-top: 10pc; */
-        height: 102%;
+        height: 104%;
     }
     .our-story-section{
         margin-top: 460%;
@@ -136,7 +136,7 @@ and (max-width: 750px){
 @media only screen 
 and (max-width: 500px){
     #design-image{
-        padding-left: 35px;
+        padding-left: 30px;
         height: 65%;
         width: 60vh;
     }
