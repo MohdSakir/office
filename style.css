@@ -34,10 +34,11 @@ video{
 
 }
 .text{
+    color: white;
     position: absolute;
     margin-left: 10px;
     /* z-index: 10; */
-    margin-top: 50pc;
+    margin-top: 70pc;
 }
 .our-story{
     background-color: white;
@@ -59,16 +60,18 @@ video{
     
 }
 .our-story-text{
+    line-height: 3pc;
     text-align: center;
     font-size: 70px;
-    padding-left: 15%;
-    padding-right: 15%;
+    padding-left: 5%;
+    padding-right: 5%;
     margin: 0;
 }
 .simple-story-discription{
     font-size: 50px;
 }
 .find-more{
+    font-weight: bold;
     font-size: 20px; opacity: 0.5;
 }
 .image-container{
@@ -81,10 +84,11 @@ video{
 }
 
 .discovery{
+    line-height: 5pc;
     font-size: 70px; 
     font-weight: lighter;
     text-align: center;
-    margin: 10pc 12pc;
+    margin: 10pc 5pc;
 }
 .discovery-work{
     font-size: 20px; 
@@ -121,7 +125,7 @@ video{
 .sec1 img{
     height: 55vh;
     width: 55vh;
-    padding: 30px;
+    padding: 20px;
     object-fit: cover;
 }
 .image-collage{

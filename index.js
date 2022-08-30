@@ -8,16 +8,20 @@ burgerline[2].style.backgroundColor=' rgba(255, 255, 255, 0.3)';
 
 window.onscroll = function (event) {
     var scroll = window.pageYOffset;
-    if (scroll < 1300) {
+    if (scroll < 1200) {
         // green
         ourStory.style.backgroundColor = 'white';
         ourStory.style.color = 'black';
     }
-    else if(scroll>=1300 && scroll < 2500 ){
+    else if(scroll>=1200 && scroll < 2700 ){
         ourStory.style.backgroundColor = 'black';
         ourStory.style.color = 'white';
     }
-    else if(scroll>=2800 && scroll < 5200){
+    else if(scroll>=2700 && scroll<2800){
+      ourStory.style.backgroundColor='white';
+      ourStory.style.color='black';
+    }
+    else if(scroll>=2800 && scroll < 4400){
       burgerline[0].style.backgroundColor='black';
       burgerline[1].style.backgroundColor='black';
       burgerline[2].style.backgroundColor='black';
@@ -40,6 +44,7 @@ window.addEventListener('scroll', function(){
   bg.style.backgroundSize = 100 + +window.pageYOffset/20+'%';
   // bg.style.opacity = 0.8 + +window.pageYOffset/7+'%';
 })
+
 
 
 

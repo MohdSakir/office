@@ -61,7 +61,7 @@ and (max-width: 500px){
         width: 53%;
         height: auto;
         display: flex;
-        position: fixed;
+        /* position: fixed; */
         margin-top: -8px;
     }
 }
@@ -74,30 +74,32 @@ and (max-width: 750px){
         margin-top: 10pc;
     }
     #design-image{
-        height: 40vh;
-        width: 191%;
+        height: 88vh;
+        width: 126%;
     }
     .text{
-        margin-top: 53pc;
+        margin-top: 100pc;
     }
     video{
+        /* padding-top: 10pc; */
         height: 100%;
     }
     .our-story-section{
-        margin-top: 270%;
+        margin-top: 460%;
     }
     .our-story-text{
         font-size: 60px;
     }
     .simple-story-discription{
+        line-height: 0;
         font-size: 25px;
     }
     .find-more{
-        font-size: 10px;
+        font-size: 16px;
     }
     .item1 img{
-        height: 30vh;
-        width: 40vh;
+        height: 70vh;
+        width: 60vh;
     }
     .item4 img{
         height: 30vh;
@@ -112,17 +114,21 @@ and (max-width: 750px){
         width: 40vh;
     }
     .collage-image-container {
-        margin-left: 100px;
+        margin-left: 0px;
     }
     .discovery{
-        margin: 10pc 15.5pc;
+        line-height: 3pc;
+        margin: 10pc 0pc;
         font-size: 50px;
+    }
+    .discovery-work{
+        font-size: 20px;
     }
     .logo-container{
         width: 53%;
-        height: auto;
+        height: 100%;
         display: flex;
-        position: fixed;
+        /* position: fixed; */
         margin-top: -8px;
     }
 }
