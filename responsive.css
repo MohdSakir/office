@@ -74,9 +74,9 @@ and (max-width: 750px){
         margin-top: 10pc;
     }
     #design-image{
-        /* padding-left: 11.5pc; */
+        padding-left: 28px;
     height: 100%;
-    width: 90vh;
+    width: 60vh;
     }
     .text{
         margin-top: 80pc;
@@ -86,7 +86,6 @@ and (max-width: 750px){
         height: 104%;
     }
     .our-story-section{
-        width: 43pc;
         margin-top: 460%;
     }
     .our-story-text{
@@ -116,7 +115,7 @@ and (max-width: 750px){
         width: 40vh;
     }
     .collage-image-container {
-        margin-left: 4pc;
+        margin-left: 0px;
     }
     .discovery{
         line-height: 3pc;
@@ -135,14 +134,14 @@ and (max-width: 750px){
     }
 }
 
-/* @media only screen 
+@media only screen 
 and (max-width: 500px){
     #design-image{
-        padding-left: 11pc;
+        padding-left: 28px;
     height: 100%;
     width: 60vh;
     }
-} */
+}
 
 
 
