@@ -73,10 +73,11 @@ and (max-width: 750px){
     .menu-inner{
         margin-top: 10pc;
     }
-    /* #design-image{
-        height: 88vh;
-        width: 100%;
-    } */
+    #design-image{
+        padding-left: 28px;
+    height: 100%;
+    width: 60vh;
+    }
     .text{
         margin-top: 80pc;
     }
@@ -136,7 +137,7 @@ and (max-width: 750px){
 @media only screen 
 and (max-width: 500px){
     #design-image{
-        padding-left: 26px;
+        padding-left: 28px;
     height: 100%;
     width: 60vh;
     }
