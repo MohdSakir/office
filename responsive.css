@@ -136,9 +136,9 @@ and (max-width: 750px){
 @media only screen 
 and (max-width: 500px){
     #design-image{
-        padding-left: 30px;
+        padding-left: 35px;
         height: 65%;
-        width: 61vh;
+        width: 60vh;
     }
 }
 
