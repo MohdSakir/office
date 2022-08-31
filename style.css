@@ -76,6 +76,11 @@ video{
     font-weight: bold;
     font-size: 20px; opacity: 0.5;
 }
+.find-more:hover{
+    cursor: pointer;
+    opacity: 0.8;
+    border-bottom: 0.15rem solid rgb(41, 156, 223);;
+}
 .image-container{
     margin-top: 20px;
     margin-bottom: 20px;
@@ -96,6 +101,11 @@ video{
     font-weight: bold;
     font-size: 20px; 
     opacity: 0.5;
+}
+.discovery-work:hover{
+    cursor: pointer;
+    opacity: 0.8;
+    border-bottom: 0.15rem solid black;;
 }
 .studio{
     margin-top: 20%;
@@ -193,6 +203,7 @@ video{
     justify-content: space-around;
     color: gray;
     font-weight: lighter;
+    margin-bottom: 30px;
 }
 
 .changeText{
