@@ -127,6 +127,7 @@ section .text-container .text-box h3{
     justify-content: space-around;
     color: gray;
     font-weight: lighter;
+    margin-bottom: 50px;
 }
 
 .changeText{
