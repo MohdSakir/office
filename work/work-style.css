@@ -265,7 +265,7 @@ and (max-width: 500px){
     width: 60vh;
     } */
     .footer-account ul li{
-        font-size: 25px;
+        font-size: 20px;
         width: 160px;
     }
     .privacy{
@@ -273,7 +273,7 @@ and (max-width: 500px){
         margin-bottom: 50px;
     }
     .privacy p{
-        font-size: 25px;
+        font-size: 20px;
     }
     .footer{
         margin-top: 30px;
