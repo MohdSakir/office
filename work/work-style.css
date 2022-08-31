@@ -255,3 +255,28 @@ color: white;
   justify-content: flex-end;
   margin-right: 75px;
 }
+
+
+@media only screen 
+and (max-width: 500px){
+    /* #design-image{
+        padding-left: 45px;
+    height: 100%;
+    width: 60vh;
+    } */
+    .footer-account ul li{
+        font-size: 25px;
+        width: 160px;
+    }
+    .privacy{
+      margin-top: 30px;
+        margin-bottom: 50px;
+    }
+    .privacy p{
+        font-size: 25px;
+    }
+    .footer{
+        margin-top: 30px;
+        margin-left: 20px;
+    }
+}
