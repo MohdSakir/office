@@ -48,45 +48,18 @@ window.addEventListener('scroll', function(){
 
 
 
-
-
-// $(function() {
-
-//   $(window).scroll(function() {
-
-//     var mass = Math.min(20, 1+0.005*$(this).scrollTop());
-
-//     $('#design-image').css('transform', 'scale(' + mass + ')');
-//   });
-// });
- 
-// var bigImage = document.getElementsByClassName('image');
-// bigImage.style.backgroundSize = '100%';
-
-// window.onscroll = function (event){
-//     var scroll =window.pageYOffset;
-//     if(scroll<500){
-//         bigImage.style.backgroundSize = '100%';
-//     }
-//     else{
-//         bigImage.style.backgroundSize = '150%';
-//     }
-// }
-
-
-var text = ["Welcome", "Hi", "Sup dude"];
-var counter = 0;
-var elem = document.getElementsByClassName("changeText");
-var inst = setInterval(change, 1000);
-
-function change() {
-  elem.innerHTML = text[counter];
-  counter++;
-  if (counter >= text.length) {
-    counter = 0;
-    // clearInterval(inst); // uncomment this if you want to stop refreshing after one cycle
-  }
-}
+//Replace Text function		 
+$(function () { 
+  count = 0; 
+  wordsArray = [" cool", " amazing", " super", "marvalous"]; 
+  setInterval(function () { 
+    count++; 
+    $("#word").fadeOut(500, function () { 
+      $(this).text(wordsArray[count % wordsArray.length]).fadeIn(500); 
+    }); 
+  }, 2000); 
+}); 
+//End Replace Text function	
 
 
 const slider = document.querySelector('.items');

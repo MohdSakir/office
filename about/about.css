@@ -130,14 +130,6 @@ section .text-container .text-box h3{
     margin-bottom: 50px;
 }
 
-.changeText{
-  color: white;
-    margin-bottom: 50px;
-    display: flex;
-    justify-content: flex-end;
-    margin-right: 75px;
-}
-
 @media only screen 
 and (max-width: 500px){
     /* #design-image{
