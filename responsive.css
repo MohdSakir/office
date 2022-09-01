@@ -208,5 +208,40 @@ and (max-width: 500px){
 }
 
 
+@media screen and (min-device-width: 820px) and (max-device-width: 900px) { 
+    #design-image{
+        width: 100%;
+        height: 41%;
+    }
+    .text{
+        margin-top: 64pc;
+    }
+    .our-story-section{
+        margin-top: 143%;
+    }
+}
+
+@media screen and (min-device-width: 750px) and (max-device-width: 820px){
+
+    #design-image{
+        width: 100%;
+        height: 34%;
+    }
+    .text{
+        margin-top: 55pc;
+    }
+    .our-story-section{
+        margin-top: 85pc;
+    }
+}
+
+/* @media screen and (min-device-width: 150px) and (max-device-width: 399px){
+
+    .sec1 img {
+        height: 25vh;
+        width: 25vh;
+    }
+} */
+
 
 
