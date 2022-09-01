@@ -102,8 +102,9 @@ and (max-width: 750px){
         margin-top: 80pc;
     }
     video{
+        width: 100%;
         /* padding-top: 10pc; */
-        height: 104%;
+        height: 100%;
     }
     .our-story-section{
         margin-top: 460%;
@@ -177,9 +178,8 @@ and (max-width: 750px){
 @media only screen 
 and (max-width: 500px){
     #design-image{
-        padding-left: 45px;
-    height: 100%;
-    width: 60vh;
+    height: 82%;
+    width: 100%;
     }
     .footer-account ul li{
         font-size: 20px;
@@ -198,6 +198,11 @@ and (max-width: 500px){
     #word{
         font-weight: bold;
         font-size: 30px;
+    }
+
+    .sec1 img{
+        height: 38vh;
+        width: 38vh;
     }
 
 }
