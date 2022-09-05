@@ -167,10 +167,11 @@ and (max-width: 750px){
     .discovery{
         line-height: 3pc;
         margin: 10pc 0pc;
-        font-size: 50px;
+        font-size: 25px;
     }
     .discovery-work{
-        font-size: 20px;
+        line-height: 10pc;
+        font-size: 16px;
     }
     .logo-container{
         width: 100%;
