@@ -93,3 +93,15 @@ slider.addEventListener('mousemove', (e) => {
 });
 
 
+// const studio = document.getElementsByClassName('studio2')[0];
+// studio.style.opacity='1';
+// window.onscroll2=function(event){
+//   const scroll2 = window.pageYOffset;
+//   if(scroll2<4000){
+//     studio.style.opacity='0';
+//   }
+//   else
+//   studio.style.opacity='1';
+// }
+
+
