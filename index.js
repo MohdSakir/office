@@ -1,5 +1,9 @@
 
+var grid2 = document.getElementsByClassName('grid-item')[0];
+var items2 = document.getElementsByClassName('items')[0];
 var ourStory = document.getElementsByClassName('our-story')[0];
+grid2.style.backgroundColor = 'white';
+items2.style.backgroundColor = 'white';
 ourStory.style.backgroundColor = 'white';
 var burgerline = document.getElementsByClassName('line');
 burgerline[0].style.backgroundColor=' rgba(255, 255, 255, 0.3)';
@@ -8,26 +12,34 @@ burgerline[2].style.backgroundColor=' rgba(255, 255, 255, 0.3)';
 
 window.onscroll = function (event) {
     var scroll = window.pageYOffset;
-    if (scroll < 1500) {
+    if (scroll < 1900) {
         // green
+        grid2.style.backgroundColor = 'white';
+        items2.style.backgroundColor = 'white';
         ourStory.style.backgroundColor = 'white';
         ourStory.style.color = 'black';
     }
-    else if(scroll>=1500 && scroll < 4000 ){
+    else if(scroll>=1900 && scroll < 4200 ){
+      grid2.style.backgroundColor = 'black';
+      items2.style.backgroundColor = 'black';
         ourStory.style.backgroundColor = 'black';
         ourStory.style.color = 'white';
     }
-    else if(scroll>=4000 && scroll<4100){
+    else if(scroll>=4200 && scroll<4300){
+      grid2.style.backgroundColor = 'white';
+      items2.style.backgroundColor = 'white';
       ourStory.style.backgroundColor='white';
       ourStory.style.color='black';
     }
-    else if(scroll>=4100 && scroll < 4300){
+    else if(scroll>=4300 && scroll < 4500){
       burgerline[0].style.backgroundColor='black';
       burgerline[1].style.backgroundColor='black';
       burgerline[2].style.backgroundColor='black';
     }
     else{
 
+      grid2.style.backgroundColor = 'white';
+      items2.style.backgroundColor = 'white';
         ourStory.style.backgroundColor = 'white';
         ourStory.style.color = 'black';
         burgerline[0].style.backgroundColor=' rgba(255, 255, 255, 0.3)';
