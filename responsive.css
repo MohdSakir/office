@@ -113,6 +113,7 @@ and (max-width: 750px){
         width: 100%;
         /* padding-top: 10pc; */
         height: 112%;
+        /* height: 102%; */
     }
     .our-story-section{
         top: 100pc;
@@ -186,6 +187,10 @@ and (max-width: 750px){
         position: absolute;
         margin-top: -8px;
     }
+    .foot-video video{
+        height: 55pc;
+        width: 100%;
+    }
 }
 
 @media only screen 
@@ -195,22 +200,26 @@ and (max-width: 500px){
     width: 100%;
     }
     .footer-account ul li{
-        font-size: 20px;
+        font-size: 15px;
         width: 160px;
     }
     .privacy{
         margin-bottom: 50px;
     }
     .privacy p{
-        font-size: 20px;
+        font-size: 12px;
     }
     .footer{
         margin-top: 30px;
         margin-left: 0;
     }
     #word{
+        display: flex;
+        position: absolute;
+        left: 18pc;
+        bottom: 9pc;
         font-weight: bold;
-        font-size: 30px;
+        font-size: 20px;
     }
 
     .sec1 img{
