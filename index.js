@@ -63,7 +63,7 @@ window.addEventListener('scroll', function(){
 //Replace Text function		 
 $(function () { 
   count = 0; 
-  wordsArray = [" cool", " amazing", " super", "marvalous"]; 
+  wordsArray = [" cool", " amazing", " super"]; 
   setInterval(function () { 
     count++; 
     $("#word").fadeOut(500, function () { 

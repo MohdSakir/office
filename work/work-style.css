@@ -99,7 +99,7 @@ h1{
 	height: auto;
 	border-radius: 10px;
 	color: #fff;
-	font-size: 1.5rem;
+	font-size: 20px;
 }
 
 .back{
@@ -185,14 +185,14 @@ h1{
 }
 
 .front .inner p{
-  font-size: 2rem;
+  font-size: 1.7rem;
   margin-bottom: 2rem;
   position: relative;
 }
 
 .front .inner p:after{
   content: '';
-  width: 4rem;
+  width: 10rem;
   height: 2px;
   position: absolute;
   background: #C6D4DF;

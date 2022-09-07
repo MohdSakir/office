@@ -117,7 +117,9 @@
         }
     }
   }
-
+.item img{
+  transition: 1s ease;
+}
 .item2 img{
   width: 80vh; 
   height: 60vh;
