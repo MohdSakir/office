@@ -1,4 +1,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Caveat:wght@500&family=Nunito&display=swap');
+@import url(/Brandon-Grotesque-Font-Family/brandon-grotesque-regular-italic-58a8a456c4724.otf);
+@import url(/Brandon-Grotesque-Font-Family/brandon-grotesque-black-58a8a3e824392.otf);
+@import url(/Brandon-Grotesque-Font-Family/brandon-grotesque-bold-italic-58a8a48221563.otf);
+@import url(/Brandon-Grotesque-Font-Family/brandon-grotesque-light-58a8a4b38001d.otf);
+@import url(/Brandon-Grotesque-Font-Family/brandon-grotesque-light-italic-58a8a4ccb88be.otf);
+@import url(/Brandon-Grotesque-Font-Family/brandon-grotesque-medium-italic-58a8a3c40866a.otf);
+@import url(/Brandon-Grotesque-Font-Family/brandon-grotesque-thin-italic-58a8a3a8861fe.otf);
 
 
 body,html{
@@ -6,7 +13,8 @@ body,html{
   width: 100%;
   box-sizing: border-box;
   margin-left: 0;
-  font-family: 'Nunito', sans-serif;
+  /* font-family: 'Nunito', sans-serif; */
+  font-family: Basis-Grotesqu-Regular,Arial,sans-serif;
   scroll-behavior: smooth;
 }
 
@@ -67,6 +75,7 @@ video{
     
 }
 .our-story-text{
+    font-weight: lighter;
     padding-top: 15pc;
     line-height: 3pc;
     text-align: center;
@@ -98,11 +107,14 @@ video{
 }
 
 .discovery{
-    line-height: 5pc;
-    font-size: 70px; 
+    /* line-height: 5pc; */
+    font-size: 50px; 
     font-weight: lighter;
     text-align: center;
-    margin: 20pc 5pc;
+    margin: 15pc 5pc;
+}
+.discovery2{
+    line-height: 3pc;
 }
 .discovery-work{
     font-weight: bold;
@@ -209,7 +221,7 @@ video{
     list-style: none;
     font-weight: bold;
     border-bottom: 0.15rem solid white;
-    width: 100px;
+    width: 101px;
 }
 .footer-account ul li:hover{
     border-bottom: 0.15rem solid  black;

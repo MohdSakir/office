@@ -1,4 +1,3 @@
-
 var grid2 = document.getElementsByClassName('grid-item')[0];
 var items2 = document.getElementsByClassName('items')[0];
 var ourStory = document.getElementsByClassName('our-story')[0];
