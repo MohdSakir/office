@@ -216,15 +216,24 @@ and (max-width: 500px){
     #word{
         display: flex;
         position: absolute;
-        left: 18pc;
-        bottom: 9pc;
+        left: 16pc;
+        bottom: 8pc;
         font-weight: bold;
         font-size: 20px;
     }
+    .description h3{
+        width: 33vh;
+    }
+    .description-detail{
+        width: 33vh;
+    }
+    .description-detail ul li{
+        width: 33vh;
+    }
 
     .sec1 img{
-        height: 38vh;
-        width: 38vh;
+        height: 34vh;
+        width: 33vh;
     }
 
 }
@@ -257,7 +266,7 @@ and (max-width: 500px){
     }
 }
 
-@media screen and (min-device-width: 250px) and (max-device-width: 320px){
+/* @media screen and (min-device-width: 250px) and (max-device-width: 320px){
 
     .sec1 img {
         height: 33vh;
@@ -268,7 +277,7 @@ and (max-width: 500px){
     left: 30px;
     top: 90pc;
 }
-}
+} */
 
 /* @media only screen 
 and (min-device-width: 399px){
