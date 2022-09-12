@@ -1,9 +1,21 @@
-@import url('https://fonts.googleapis.com/css2?family=Asap&display=swap');
+@font-face{
+  font-family: 'Louis';
+  src: url('/louis_george_caf/Louis\ George\ Cafe\ Light.ttf');
+  /* font-weight: lighter; */
+}
+*{
+  /* font-family: 'Poppins', sans-serif; */
+  /* font-family: 'AvenirLTStd-Book', sans-serif; */
+  font-weight: normal;
+  font-family: 'Louis';
+}
+
+
 *{
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: "Asap", sans-serif;
+  font-family: 'Louis'
 }
 body{
   background: black;
@@ -19,7 +31,7 @@ body{
   display: flex;
 }
 .navigation-bar ul li a{
-  font-family: "Asap", sans-serif;
+  /* font-family: "Asap", sans-serif; */
   color: white;
   text-decoration: none;
 }
@@ -29,7 +41,7 @@ body{
 }
 .navigation-bar ul li a:hover{
   transition: 0.5s ease-in-out;
-  border-bottom: 0.15rem solid rgb(41, 156, 223);
+  border-bottom: 0.15rem solid #974d70;
 }
 .navigation-bar ul li{
     color: white;
@@ -72,9 +84,6 @@ section h2{
   text-align: center;
   text-transform: uppercase;
 }
-section .text-container{
-   /* display: flex; */
-}
 section .text-container .text-box{
   margin: 20px;
   padding: 20px;
@@ -86,6 +95,11 @@ section .text-container .text-box h3{
   text-transform: uppercase;
   margin-bottom: 10px;
 }
+.text-box p{
+  padding: 60px;
+  font-size: 25px;
+  line-height: 3pc;
+}
 
 @media (max-width: 500px){
   section h1{
@@ -94,6 +108,11 @@ section .text-container .text-box h3{
   }
   section .text-container{
     flex-direction: column;
+  }
+  .text-box p{
+    padding: 0px;
+    font-size: 20px;
+    line-height: 30px;
   }
 }
 
@@ -108,6 +127,10 @@ section .text-container .text-box h3{
   transform: translateY(0);
   opacity: 1;
 }
+.about-img{
+  width: 80pc;
+  height: 25pc;
+}
 
 .footer{
     margin-top: 100px;
@@ -118,7 +141,7 @@ section .text-container .text-box h3{
     list-style: none;
     font-weight: bold;
     border-bottom: 0.15rem solid black;
-    width: 100px;
+    width: 101px;
 }
 .footer-account ul li:hover{
     border-bottom: 0.15rem solid white;
@@ -156,4 +179,9 @@ and (max-width: 500px){
         margin-top: 30px;
         margin-left: 20px;
     }
+    .about-img{
+      width: 20pc;
+      height: 10pc;
+    }
+    
 }

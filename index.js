@@ -18,13 +18,13 @@ window.onscroll = function (event) {
         ourStory.style.backgroundColor = 'white';
         ourStory.style.color = 'black';
     }
-    else if(scroll>=1900 && scroll < 4200 ){
+    else if(scroll>=1900 && scroll < 3300 ){
       grid2.style.backgroundColor = 'black';
       items2.style.backgroundColor = 'black';
         ourStory.style.backgroundColor = 'black';
         ourStory.style.color = 'white';
     }
-    else if(scroll>=4200 && scroll<4300){
+    else if(scroll>=3300 && scroll<3400){
       grid2.style.backgroundColor = 'white';
       items2.style.backgroundColor = 'white';
       ourStory.style.backgroundColor='white';

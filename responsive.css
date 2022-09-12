@@ -35,40 +35,40 @@ and (max-width: 400px){
         font-size: 10px;
     }
     .item1 img{
-        height: 50vh;
-        width: 60vh;
+        height: 30vh;
+        width: 40vh;
     }
     .item2 img{
-        height: 50vh;
-        width: 60vh;
+        height: 30vh;
+        width: 40vh;
     }
     .item3 img{
-        height: 50vh;
-        width: 60vh;
+        height: 30vh;
+        width: 40vh;
     }
     .item4 img{
-        height: 50vh;
-        width: 60vh;
+        height: 30vh;
+        width: 40vh;
     }
     .item5 img{
-        height: 50vh;
-        width: 60vh;
+        height: 30vh;
+        width: 40vh;
     }
     .item6 img{
-        height: 50vh;
-        width: 60vh;
+        height: 30vh;
+        width: 40vh;
     }.item7 img{
-        height: 50vh;
-        width: 60vh;
+        height: 30vh;
+        width: 40vh;
     }.item8 img{
-        height: 50vh;
-        width: 60vh;
+        height: 30vh;
+        width: 40vh;
     }.item9 img{
-        height: 50vh;
-        width: 60vh;
+        height: 30vh;
+        width: 40vh;
     }.item10 img{
-        height: 50vh;
-        width: 60vh;
+        height: 30vh;
+        width: 40vh;
     }
     .collage-image-container {
         margin-left: 100px;
@@ -96,7 +96,7 @@ and (max-width: 750px){
     /* #design-image{
         padding-left: 45px;
     height: 100%;
-    width: 60vh;
+    width: 40vh;
     } */
     .text{
         line-height: 15px;
@@ -130,40 +130,40 @@ and (max-width: 750px){
         font-size: 16px;
     }
     .item1 img{
-        height: 50vh;
-        width: 60vh;
+        height: 30vh;
+        width: 40vh;
     }
     .item2 img{
-        height: 50vh;
-        width: 60vh;
+        height: 30vh;
+        width: 40vh;
     }
     .item3 img{
-        height: 50vh;
-        width: 60vh;
+        height: 30vh;
+        width: 40vh;
     }
     .item4 img{
-        height: 50vh;
-        width: 60vh;
+        height: 30vh;
+        width: 40vh;
     }
     .item5 img{
-        height: 50vh;
-        width: 60vh;
+        height: 30vh;
+        width: 40vh;
     }
     .item6 img{
-        height: 50vh;
-        width: 60vh;
+        height: 30vh;
+        width: 40vh;
     }.item7 img{
-        height: 50vh;
-        width: 60vh;
+        height: 30vh;
+        width: 40vh;
     }.item8 img{
-        height: 50vh;
-        width: 60vh;
+        height: 30vh;
+        width: 40vh;
     }.item9 img{
-        height: 50vh;
-        width: 60vh;
+        height: 30vh;
+        width: 40vh;
     }.item10 img{
-        height: 50vh;
-        width: 60vh;
+        height: 30vh;
+        width: 40vh;
     }
     .studio2{
         font-size: 40px;

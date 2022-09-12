@@ -1,3 +1,17 @@
+@font-face{
+  font-family: 'Louis';
+  src: url('/louis_george_caf/Louis\ George\ Cafe\ Light.ttf');
+  /* font-weight: lighter; */
+}
+*{
+  /* font-family: 'Poppins', sans-serif; */
+  /* font-family: 'AvenirLTStd-Book', sans-serif; */
+  font-weight: normal;
+  font-family: 'Louis';
+}
+
+
+
 #burger-toggle {
     position: absolute;
     appearance: none;

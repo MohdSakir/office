@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@500&family=Nunito&display=swap');
+/* @import url('https://fonts.googleapis.com/css2?family=Caveat:wght@500&family=Nunito&display=swap');
 @import url(/Brandon-Grotesque-Font-Family/brandon-grotesque-regular-italic-58a8a456c4724.otf);
 @import url(/Brandon-Grotesque-Font-Family/brandon-grotesque-black-58a8a3e824392.otf);
 @import url(/Brandon-Grotesque-Font-Family/brandon-grotesque-bold-italic-58a8a48221563.otf);
@@ -7,14 +7,32 @@
 @import url(/Brandon-Grotesque-Font-Family/brandon-grotesque-medium-italic-58a8a3c40866a.otf);
 @import url(/Brandon-Grotesque-Font-Family/brandon-grotesque-thin-italic-58a8a3a8861fe.otf);
 
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@200&display=swap'); */
 
+/* @import url(/Avenir-Font/avenir_ff/AvenirLTStd-Book.otf);
+@import url(/Avenir-Font/avenir_ff/AvenirLTStd-Roman.otf); */
+/* @import url('https://fonts.googleapis.com/css2?family=Inter:wght@200&family=Poppins:wght@200&display=swap'); */
+
+
+@font-face{
+    font-family: 'Louis';
+    src: url('/louis_george_caf/Louis\ George\ Cafe\ Light.ttf');
+    /* font-weight: lighter; */
+}
+*{
+    /* font-family: 'Poppins', sans-serif; */
+    /* font-family: 'AvenirLTStd-Book', sans-serif; */
+    font-weight: normal;
+    font-family: 'Louis';
+}
 body,html{
   height: 100%;
   width: 100%;
   box-sizing: border-box;
   margin-left: 0;
   /* font-family: 'Nunito', sans-serif; */
-  font-family: Basis-Grotesqu-Regular,Arial,sans-serif;
+  /* font-family: 'Inter', sans-serif; */
+  /* font-family: 'Poppins', sans-serif; */
   scroll-behavior: smooth;
 }
 
@@ -75,17 +93,24 @@ video{
     
 }
 .our-story-text{
+    padding-bottom: 10pc;
     font-weight: lighter;
     padding-top: 15pc;
     line-height: 3pc;
     text-align: center;
-    font-size: 70px;
-    padding-left: 5%;
-    padding-right: 5%;
+    font-size: 50px;
+    padding-left: 10%;
+    padding-right: 10%;
     margin: 0;
 }
+.straight{
+    font-weight: lighter;
+    letter-spacing: 2px;
+}
 .simple-story-discription{
-    font-size: 50px;
+    justify-content: center;
+    font-size: 35px;
+    letter-spacing: 2px;
 }
 .find-more{
     line-height: 16pc;
@@ -108,10 +133,10 @@ video{
 
 .discovery{
     /* line-height: 5pc; */
-    font-size: 50px; 
+    font-size: 35px; 
     font-weight: lighter;
     text-align: center;
-    margin: 15pc 5pc;
+    margin: 15pc 10pc;
 }
 .discovery2{
     line-height: 3pc;
@@ -130,6 +155,7 @@ video{
     margin-top: 20%;
 } */
 .studio2{
+    padding-bottom: 6pc;
     font-size: 70px;
     font-weight: lighter;
     text-align: center;
@@ -163,9 +189,10 @@ video{
     margin-right: 05px;
 }
 .sec1 img{
-    height: 57vh;
-    width: 58vh;
-    padding: 20px;
+    filter: grayscale(1);
+    height: 25vh;
+    width: 25vh;
+    /* padding: 20px; */
     object-fit: cover;
 }
 .image-collage{
@@ -173,6 +200,7 @@ video{
     transition: 1s ease;
 }
 .image-collage:hover{
+    filter: grayscale(0);
     -webkit-transform: scale(1.2);
     -ms-transform: scale(1.2);
     transform: scale(1.05);
@@ -215,14 +243,14 @@ video{
     width: 100%;
 }
 .footer{
-    margin-top: 100px;
+    margin-top: 40px;
     margin-left: 20px;
 }
 .footer-account ul li{
     list-style: none;
     font-weight: bold;
     border-bottom: 0.15rem solid white;
-    width: 101px;
+    width: 120px;
 }
 .footer-account ul li:hover{
     border-bottom: 0.15rem solid  black;
@@ -247,7 +275,7 @@ video{
 #word{
     font-size: 50px;
     /* font-weight: bold; */
-    margin-bottom: 50px;
+    margin-bottom: 20px;
     display: flex;
     justify-content: flex-end;
     margin-right: 75px;
