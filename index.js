@@ -1,6 +1,8 @@
 var grid2 = document.getElementsByClassName('grid-item')[0];
 var items2 = document.getElementsByClassName('items')[0];
 var ourStory = document.getElementsByClassName('our-story')[0];
+var discover = document.getElementsByClassName('discover-link')[0];
+discover.style.color='black';
 grid2.style.backgroundColor = 'white';
 items2.style.backgroundColor = 'white';
 ourStory.style.backgroundColor = 'white';
@@ -17,18 +19,21 @@ window.onscroll = function (event) {
         items2.style.backgroundColor = 'white';
         ourStory.style.backgroundColor = 'white';
         ourStory.style.color = 'black';
+        discover.style.color='black';
     }
     else if(scroll>=1900 && scroll < 3300 ){
       grid2.style.backgroundColor = 'black';
       items2.style.backgroundColor = 'black';
         ourStory.style.backgroundColor = 'black';
         ourStory.style.color = 'white';
+        discover.style.color='white';
     }
     else if(scroll>=3300 && scroll<3400){
       grid2.style.backgroundColor = 'white';
       items2.style.backgroundColor = 'white';
       ourStory.style.backgroundColor='white';
       ourStory.style.color='black';
+      discover.style.color='black';
     }
     // else if(scroll>=4300 && scroll < 4500){
     //   burgerline[0].style.backgroundColor='black';
@@ -41,6 +46,7 @@ window.onscroll = function (event) {
       items2.style.backgroundColor = 'white';
         ourStory.style.backgroundColor = 'white';
         ourStory.style.color = 'black';
+        discover.style.color='black';
         // burgerline[0].style.backgroundColor=' rgba(255, 255, 255, 0.3)';
         // burgerline[1].style.backgroundColor=' rgba(255, 255, 255, 0.3)';
         // burgerline[2].style.backgroundColor=' rgba(255, 255, 255, 0.3)';
