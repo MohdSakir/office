@@ -232,8 +232,13 @@ and (max-width: 500px){
     }
 
     .sec1 img{
-        height: 34vh;
-        width: 33vh;
+        height: 16vh;
+        width: 15vh;
+    }
+    .music{
+        margin-top: 0;
+        margin-bottom: 0;
+        margin-left: 0;
     }
 
 }
