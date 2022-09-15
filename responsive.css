@@ -192,10 +192,10 @@ and (max-width: 750px){
         width: 100%;
     }
     #textButton{
-        left: 10pc;
+        /* left: 10pc; */
         font-size: 10px;
         padding: 10px 10px 12px;
-        left: 10pc;
+        /* left: 10pc; */
     }
 }
 

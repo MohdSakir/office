@@ -190,6 +190,19 @@ section {
 	margin-right: 3px;
 	margin-bottom: 5px;
 }
+.logo-img{
+	height: 10vh;
+}
+.privacy{
+    background: #974d70;
+    display: flex;
+    justify-content: space-around;
+    color: white;
+	font-weight: bold;
+	margin-top: 25px;
+    opacity: 0.5;
+    /* margin-bottom: 30px; */
+}
 
 /* If you don't want the footer to be responsive, remove these media queries */
 
@@ -216,6 +229,9 @@ section {
       }
       .add{
           margin-left: -2.5pc;
-      }
+	  }
+	  .logo-img{
+		height: 6vh;
+	}
 
 }
