@@ -26,8 +26,8 @@ body{
   position: absolute;
   top: 13px;
   left: 15px;
-  width: 100%;
-  height: 100%;
+  /* width: 100%;
+  height: 100%; */
   display: flex;
 }
 .navigation-bar ul li a{
@@ -262,6 +262,15 @@ color: #974d70;
   color: gray;
   font-weight: lighter;
   margin-bottom: 50px;
+}
+.Learn-more-link{
+  font-size: 20px;
+  text-decoration: none;
+  color: #974d70;
+}
+.Learn-more-link:hover{
+  font-weight: bolder;
+  border-bottom: 2px solid #974d70;
 }
 
 
