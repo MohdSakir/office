@@ -41,7 +41,7 @@ video{
     height: 100%;
     object-fit: cover;
     position: fixed;
-    margin-top: -7px;
+    /* margin-top: -7px; */
 }
 #design-image{
     background-image: url(/images/ask\ copy.png);
