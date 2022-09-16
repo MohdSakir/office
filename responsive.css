@@ -121,6 +121,7 @@ and (max-width: 750px){
     .our-story-text{
         padding-top: 3pc;
         font-size: 40px;
+        padding-bottom: 5pc;
     }
     .simple-story-discription{
         line-height: 0;
@@ -167,14 +168,15 @@ and (max-width: 750px){
     }
     .studio2{
         font-size: 40px;
+        padding-bottom: 2pc;
     }
     .collage-image-container {
         margin-left: 0px;
     }
     .discovery{
-        line-height: 3pc;
-        margin: 10pc 0pc;
-        font-size: 25px;
+        line-height: 1pc;
+        margin: 3pc 2pc;
+        font-size: 30px;
     }
     .discovery-work{
         line-height: 10pc;
@@ -209,9 +211,9 @@ and (max-width: 500px){
         font-size: 15px;
         width: 160px;
     }
-    .privacy{
+    /* .privacy{
         margin-bottom: 50px;
-    }
+    } */
     .privacy p{
         font-size: 12px;
     }
