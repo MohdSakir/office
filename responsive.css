@@ -218,8 +218,10 @@ and (max-width: 500px){
         font-size: 12px;
     }
     .footer{
-        margin-top: 60px;
+        top: 2pc;
+        /* margin-top: 60px;
         margin-left: 0;
+        margin-bottom: 0; */
     }
     #word{
         display: flex;
@@ -247,6 +249,12 @@ and (max-width: 500px){
         margin-top: 0;
         margin-bottom: 0;
         margin-left: 0;
+    }
+    .footer-gif{
+        /* left: 17pc; */
+        bottom: 5pc;
+        height: 50px;
+        width: 50px;
     }
 
 }

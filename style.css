@@ -249,9 +249,11 @@ video{
     
 }
 .footer{
-    margin-top: 80px;
+    position: relative;
+    top: 3pc;
+    /* margin-top: 80px;
     margin-bottom: 30px;
-    margin-left: 20px;
+    margin-left: 20px; */
 }
 .footer-account ul li{
     list-style: none;
@@ -266,6 +268,7 @@ video{
     text-shadow: 2px 2px 4px black;
 }
 .privacy{
+    width: 100%;
     background: #974d70;
     display: flex;
     justify-content: space-around;
@@ -373,4 +376,13 @@ display: none;
     text-align: center;
     margin: auto;
     width: 60%;
+}
+
+.footer-gif{
+    position: relative;
+    /* left: 80pc; */
+    float: right;
+    bottom: 6pc;
+    height: 100px;
+    width: 100px;
 }
