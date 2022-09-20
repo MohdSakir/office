@@ -264,7 +264,7 @@ color: #974d70;
   margin-bottom: 50px;
 }
 .Learn-more-link{
-  font-size: 20px;
+  font-size: 16px;
   text-decoration: none;
   color: rgb(0, 0, 0);
 }
@@ -297,7 +297,7 @@ and (max-width: 500px){
         margin-left: 20px;
     }
     .Learn-more-link{
-      font-size: 20px;
+      font-size: 16px;
       text-decoration: none;
       /* color: #974d70; */
     }

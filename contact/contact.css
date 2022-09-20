@@ -13,12 +13,12 @@
 section {
   width: 100%;
   display: inline-block;
-  background: #333;
+  background: #974d70;
   height: 50vh;
   text-align: center;
   font-size: 22px;
   font-weight: 700;
-  text-decoration: underline;
+  /* text-decoration: underline; */
 }
 .map{
     width: 100%;
@@ -203,6 +203,17 @@ section {
     opacity: 0.5;
     /* margin-bottom: 30px; */
 }
+.contact-head{
+	background-color: #974d70;
+}
+.contact-head h1{
+	margin: 10px;
+	font-weight: bold;
+	color: white;
+	text-decoration: none;
+	border-bottom: none;
+	background: #974d70;
+}
 
 /* If you don't want the footer to be responsive, remove these media queries */
 
@@ -232,6 +243,10 @@ section {
 	  }
 	  .logo-img{
 		height: 6vh;
+	}
+	.contact-head h1{
+		font-size: 20px;
+		font-weight: normal;
 	}
 
 }
