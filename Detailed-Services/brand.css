@@ -51,6 +51,10 @@
       padding: 10px 10px;
       cursor: pointer;
   }
+  .simple-story h1{
+    position: relative;
+    top: 10pc;
+  }
   section{
     min-height: 50vh;
     display: flex;
