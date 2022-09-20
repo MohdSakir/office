@@ -194,8 +194,8 @@ video{
 }
 .sec1 img{
     filter: grayscale(1);
-    height: 25vh;
-    width: 25vh;
+    height: 27vh;
+    width: 27vh;
     /* padding: 20px; */
     object-fit: cover;
 }
@@ -379,10 +379,11 @@ display: none;
 }
 
 .footer-gif{
+    right: 60px;
     position: relative;
     /* left: 80pc; */
     float: right;
     bottom: 6pc;
-    height: 100px;
-    width: 100px;
+    height: 133px;
+    width: 133px;
 }
