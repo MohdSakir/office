@@ -89,7 +89,7 @@ section h2{
   text-transform: uppercase;
 }
 section .text-container .text-box{
-  margin: 20px;
+  /* margin: 20px; */
   padding: 20px;
   background: black;
 }
