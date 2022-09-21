@@ -145,6 +145,7 @@
     }
   }
   .menu-nav-item {
+    padding: 5px 0px;
     flex: 1;
   }
   .menu-nav-link {

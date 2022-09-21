@@ -204,6 +204,9 @@ and (max-width: 750px){
         height: 30vh;
         width: 30vh;
     }
+    .discover-link{
+        font-size: 10px;
+    }
 }
 
 @media only screen 

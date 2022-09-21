@@ -148,6 +148,8 @@ video{
     opacity: 0.5;
 }
 .discover-link{
+    font-size: 15px;
+    background: white;
     border-bottom: none;
     border: 2px solid;
     padding: 10px;
@@ -378,6 +380,9 @@ display: none;
     text-align: center;
     margin: auto;
     width: 60%;
+}
+#points{
+    position: absolute;
 }
 
 .footer-gif{
