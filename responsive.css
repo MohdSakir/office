@@ -200,6 +200,10 @@ and (max-width: 750px){
         padding: 10px 10px 12px;
         /* left: 10pc; */
     }
+    .sec1 img{
+        height: 30vh;
+        width: 30vh;
+    }
 }
 
 @media only screen 
@@ -243,8 +247,8 @@ and (max-width: 500px){
     }
 
     .sec1 img{
-        height: 23vh;
-        width: 23vh;
+        height: 30vh;
+        width: 30vh;
     }
     .music{
         margin-top: 0;
