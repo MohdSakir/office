@@ -140,6 +140,7 @@ video{
 }
 .discovery2{
     line-height: 3pc;
+    letter-spacing: 2px;
 }
 .discovery-work{
     font-weight: bold;
@@ -147,6 +148,7 @@ video{
     opacity: 0.5;
 }
 .discover-link{
+    border-bottom: none;
     border: 2px solid;
     padding: 10px;
 }
