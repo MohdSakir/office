@@ -194,8 +194,8 @@ video{
 }
 .sec1 img{
     filter: grayscale(1);
-    height: 27vh;
-    width: 27vh;
+    height: 70vh;
+    width: 70vh;
     /* padding: 20px; */
     object-fit: cover;
 }
