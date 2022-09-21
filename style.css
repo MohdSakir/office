@@ -149,9 +149,9 @@ video{
 }
 .discover-link{
     text-decoration: none;
-    color: white;
+    /* color: white; */
     font-size: 15px;
-    background: white;
+    /* background: white; */
     border-bottom: none;
     border: 2px solid;
     padding: 10px;
