@@ -148,11 +148,14 @@ video{
     opacity: 0.5;
 }
 .discover-link{
+    text-decoration: none;
+    color: white;
     font-size: 15px;
     background: white;
     border-bottom: none;
     border: 2px solid;
     padding: 10px;
+    transition: background 1.3s ease;
 }
 .discovery-work:hover{
     cursor: pointer;
@@ -237,7 +240,6 @@ video{
     float: left;
     padding-left: 15px;
 }
-
 .foot{
     position: relative;
     margin-top: 10%;
