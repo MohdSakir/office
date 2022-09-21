@@ -32,7 +32,7 @@ and (max-width: 400px){
         font-size: 25px;
     }
     .find-more{
-        font-size: 10px;
+        font-size: 15px;
     }
     .item1 img{
         height: 30vh;
@@ -205,7 +205,7 @@ and (max-width: 750px){
         width: 30vh;
     }
     .discover-link{
-        font-size: 10px;
+        font-size: 15px;
     }
 }
 
